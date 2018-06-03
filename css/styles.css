@@ -1,0 +1,79 @@
+body {
+	font-style: "Linotype Didot";
+	font-size: 25px;
+	background-color: #F7E9E8;
+	color: #9C7F89;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Navigatie */
+
+nav {
+	margin: 10px 0px 20px 250px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 40px;
+}
+
+li a {
+	margin-right: 40px;
+}
+
+li a:hover{
+	color: #9C7F89;
+}
+
+a,li {
+	text-decoration: none;
+	display: inline;
+}
+
+
+/* Tabellen*/
+
+table {
+	border: 3px solid #68555C;
+	border-collapse: collapse;
+}
+
+.onvoldoende {
+	color: red;
+}
+
+.head {
+	color: white;
+	background-color: #68555C;
+}
+
+.over {
+	background-color: #CCCCCC;
+}
+
+tr, td {
+	padding: 10px;
+	border: 2px solid #68555C;
+}
+
+th {
+	padding: 10px;
+}
+
+header {
+	margin-left: 200px;
+	padding: 0;
+}
+
+h2, p {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #68555C;
+}
