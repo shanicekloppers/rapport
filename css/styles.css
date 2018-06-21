@@ -1,28 +1,32 @@
 body {
 	font-style: "Linotype Didot";
-	font-size: 25px;
+	font-size: 23px;
 	background-color: #F7E9E8;
 	color: #9C7F89;
 	font-weight: bold;
 	font-style: italic;
 }
 
-/* Navigatie */
+/* Home, Logo */
 
-nav {
-	margin: 10px 0px 20px 250px;
+.logo {
+	
+	margin: 0px auto;
 }
+
+/* Navigatie */
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 10px;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 35px;
+    text-align: center;
 }
 
-li a {
-	margin-right: 40px;
+li {
+	padding: 30px;
 }
 
 li a:hover{
@@ -40,6 +44,7 @@ a,li {
 table {
 	border: 3px solid #68555C;
 	border-collapse: collapse;
+	float: inherit;
 }
 
 .onvoldoende {
@@ -64,14 +69,11 @@ th {
 	padding: 10px;
 }
 
-header {
-	margin-left: 200px;
-	padding: 0;
-}
-
 h1, h2, h3, p {
 	text-align: center;
 }
+
+/* Link */
 
 a {
 	text-decoration: none;
