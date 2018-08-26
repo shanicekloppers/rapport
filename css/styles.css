@@ -9,10 +9,10 @@ body {
 
 /* Home, Logo */
 
-.logo {
+div a img {
 	text-align: center;
-	margin: 0 auto;
-	display: inline;
+	margin: auto;
+	display: block;
 }
 
 /* Navigatie */
@@ -79,4 +79,86 @@ h1, h2, h3, p {
 a {
 	text-decoration: none;
 	color: #68555C;
+}
+
+/* Sizing website */
+
+@media only screen and (max-width: 399px) { 
+	body {
+		font-size: 16px;
+	}
+	img {
+		max-width: 300px;
+		max-height: 110px;
+	}
+	ul {
+		font-size: 25px;
+	}
+	li {
+		padding: 20px;
+	}
+	table {
+		max-width: 350px;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px) { 
+	body {
+		font-size: 16px;
+	}
+	img {
+		max-width: 400px;
+		max-height: 150px;
+	}
+	ul {
+		font-size: 25px;
+	}
+	li {
+		padding: 20px;
+	}
+	table {
+		max-width: 350px;
+	}
+}
+
+@media only screen and (min-width: 550px) and (max-width: 719px) { 
+	body {
+		font-size: 18px;
+	}
+	img {
+		max-width: 400px;
+		max-height: 150px;
+	}
+	ul {
+		font-size: 30px;
+	}
+	li {
+		padding: 20px;
+	}
+	table {
+		max-width: 350px;
+	}
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1023px) {	
+	body {
+		font-size: 20px;
+	}
+	img {
+		max-width: 700px;
+		max-height: 200px;
+	}
+	ul {
+		font-size: 30px;
+	}
+	li {
+		padding: 25px;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		font-size: 23px;
+	}
 }
