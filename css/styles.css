@@ -1,6 +1,6 @@
 body {
 	font-style: "Linotype Didot";
-	font-size: 23px;
+	font-size: 20px;
 	background-color: #F7E9E8;
 	color: #9C7F89;
 	font-weight: bold;
@@ -85,7 +85,10 @@ a {
 
 @media only screen and (max-width: 399px) { 
 	body {
-		font-size: 16px;
+		font-size: 7px;
+	}
+	a {
+		font-size: 18px;
 	}
 	img {
 		max-width: 300px;
@@ -98,7 +101,10 @@ a {
 		padding: 20px;
 	}
 	table {
-		max-width: 350px;
+		max-width: 150px;
+	}
+	tr, td {
+		min-width: 10px;
 	}
 }
 
