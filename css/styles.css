@@ -7,6 +7,11 @@ body {
 	font-style: italic;
 }
 
+p {
+	max-width: 400px;
+	margin: 0px auto;
+}
+
 /* Home, Logo */
 
 div a img {
