@@ -92,14 +92,7 @@ a {
 	body {
 		font-size: 7px;
 	}
-	a {
-		font-size: 18px;
-	}
 
-	h3 > a {
-		font-size: 7px;
-	}
-	
 	img {
 		max-width: 300px;
 		max-height: 110px;
