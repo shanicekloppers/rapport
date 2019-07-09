@@ -93,6 +93,10 @@ a {
 		font-size: 7px;
 	}
 
+	li a {
+		font-size: 12px;
+	}
+
 	img {
 		max-width: 300px;
 		max-height: 110px;
